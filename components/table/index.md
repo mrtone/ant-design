@@ -69,10 +69,10 @@ const columns = [{
 | locale        | 默认文案设置，目前包括排序、过滤、空数据文案 | Object         | | `{ filterConfirm: '确定', filterReset: '重置', emptyText: '暂无数据' }` [默认值](https://github.com/ant-design/ant-design/issues/575#issuecomment-159169511) |
 | indentSize    | 展示树形数据时，每层缩进的宽度，以 px 为单位    | Number   |          | 15      |
 | onRowClick    | 处理行点击事件              | Function(record, index)   |              |     无     |
-| useFixedHeader  | 是否固定表头             | Boolean          |                   | false      |
 | bordered  | 是否展示外边框和列边框       | Boolean          |                   | false      |
 | showHeader  | 是否显示表头             | Boolean          |                   | true      |
 | footer  | 表格底部自定义渲染函数         | Function(currentPageData)   |        |       |
+| scroll  | 横向或纵向支持滚动，也可用于指定滚动区域的宽高度 | Object   | `{{ x: true, y: 300 }}`       | -      |
 
 ### Column
 
@@ -91,6 +91,7 @@ const columns = [{
 | colSpan    | 表头列合并,设置为 0 时，不渲染 | Number      |                     |         |
 | width      | 列宽度 | String or Number |                                        | 无      |
 | className  | 列的 className             | String          |                     | 无      |
+| fixed  | 列是否固定             | Boolean or String  | true(和 left 效果一致) 'left' 'right' | false      |
 
 ### rowSelection
 
