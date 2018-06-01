@@ -1,24 +1,36 @@
-# 总数
+---
+order: 9
+title:
+  zh-CN: 总数
+  en-US: Total number
+---
 
-- order: 9
+## zh-CN
 
 通过设置 `showTotal` 展示总共有多少数据。
 
----
+## en-US
+
+You can show the total number of data by setting `showTotal`.
 
 ````jsx
-import { Pagination, Select } from 'antd';
-
-function showTotal(total) {
-  return `共 ${total} 条`;
-}
+import { Pagination } from 'antd';
 
 ReactDOM.render(
-  <Pagination
-    selectComponentClass={Select}
-    total={80}
-    showTotal={showTotal}
-    pageSize={20} defaultCurrent={1} />,
-  mountNode
-);
+  <div>
+    <Pagination
+      total={85}
+      showTotal={total => `Total ${total} items`}
+      pageSize={20}
+      defaultCurrent={1}
+    />
+    <br />
+    <Pagination
+      total={85}
+      showTotal={(total, range) => `${range[0]}-${range[1]} of ${total} items`}
+      pageSize={20}
+      defaultCurrent={1}
+    />
+  </div>
+, mountNode);
 ````

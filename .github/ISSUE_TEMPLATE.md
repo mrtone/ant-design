@@ -1,25 +1,15 @@
-If you want to ask a question, please read [some tips](https://github.com/ant-design/ant-design/blob/master/.github/CONTRIBUTING.md#do-your-homework-before-asking-a-question) first :-)
+<!--
+IMPORTANT: Please use the following link to create a new issue:
 
-If you are going to report a bug, please answer the following questions, thank you!
+  http://new-issue.ant.design
 
-## What you did
+If your issue was not created using the app above, it will be closed immediately.
+-->
 
-(e.g. I ate a hamburger)
+<!--
+注意：请使用下面的链接来新建 issue：
 
-## What you would like to happen
+  http://new-issue.ant.design
 
-(e.g. I should be full)
-
-## What actually happened
-
-(e.g. But I am still hungry now T_T)
-
-## Online demo
-
-(e.g. http://codepen.io/anon/pen/pgdXYp?editors=001)
-
-## Environment Information
-
-- The version of antd(e.g. 0.12.0):
-- Your operating system and it's version(e.g. OSX 10.11.0):
-- Your browser and it's version(e.g. Chrome 48.0.0.0(64-bit)):
+不是用上面的链接创建的 issue 会被立即关闭。
+-->
